@@ -1,6 +1,6 @@
 from django.urls import path
-from .api import BookCreateApi, BookListApi, BookUpdateApi, BookDeleteApi
+from .api import UserCreateApi
 
 urlpatterns = [
-    path('list', BookListApi),
+    path('register', UserCreateApi),
 ]
